@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<script src="~/js/simple_get.js"></script>
+<form class="contact2-form validate-form" id="movieForm">
+    <span class="contact2-form-title">
+        Search Films
+    </span>
+
+    <div class="wrap-input2 validate-input" data-validate="Name is required">
+        <input class="input2" type="text" name="filmName" id="filmName">
+        <span class="focus-input2" data-placeholder="Search Value"></span>
+    </div>
+
+
+    <div class="container-contact2-form-btn">
+        <div class="wrap-contact2-form-btn">
+            <div class="contact2-form-bgbtn"></div>
+            <button class="contact2-form-btn">
+                Search!
+            </button>
+        </div>
+    </div>
+</form>
+
+
+<div id="movieList">
+
+</div>
